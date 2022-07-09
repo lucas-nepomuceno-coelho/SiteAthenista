@@ -55,7 +55,7 @@ nav{
   width: 350px;
   height: 50px;
   left: -350px;
-  position: absolute;
+  position: fixed;
   transition: all .5s;
 }
 
@@ -63,7 +63,7 @@ input[type="checkbox"]:checked ~ nav{
   transform: translateX(350px);
 }
 
-/* Grid de noticia */
+/* Grid de noticias */
 .container {
   background-color: rgb(196, 195, 195);
   min-height: 60vh;
