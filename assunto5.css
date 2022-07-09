@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: darkslategray;
+    text-align: center;
+    padding: 15px;
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  /* Menu */
+  
+  a{
+    text-decoration: none;
+    display: block;
+    padding: 20px 5px;
+    color: black;
+  }
+  
+  a:hover{
+    background-color: #392D2D;
+    color: #965329;
+    border-radius: 10px;
+    transition: background .5s;
+  }
+  
+  label{
+  background-color: darkslategray;
+  padding: 15px;
+  position: absolute;
+  }
+  
+  ul{
+    position: absolute;
+    top: 80px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: darkslategray;
+  }
+  
+  label img {
+    width: 40px;
+  }
+  
+  input[type="checkbox"]{
+    display: none;
+  }
+  
+  nav{
+    width: 350px;
+    height: 50px;
+    left: -350px;
+    position: absolute;
+    transition: all .5s;
+  }
+  
+  input[type="checkbox"]:checked ~ nav{
+    transform: translateX(350px);
+  }
+  
+  /* Grid de noticia */
+  .container {
+    background-color: rgb(196, 195, 195);
+    min-height: 60vh;
+    padding: 20px;
+  }
+  
+  
+  
+  .card {
+    width: 31%;
+    min-width: 275px;
+    margin: 1% 1%;
+    display: inline-block;
+    padding: 1px;
+  }
+
+  h3 {
+    margin-bottom: 10px;
+    color: darkslategray;
+    font-size: 24px;
+  }
+  
+  .card p {
+    margin-bottom: 10px;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: darkslategray;
+    color: rgb(196, 195, 195);
+    padding: 15px;
+    border-radius: 10px;
+    
+  }
+  
+  .btn:hover {
+    background-color: #392D2D;
+    transition: background .3s;
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: rgb(12, 29, 29);
+    text-align: center;
+    padding: 80px;
+    color: rgb(148, 137, 137);
+  }
+    #cavalo{
+    float: left;
+    width: 25%;
+  }
+  .logo{
+    width: 10%;
+    height: 10%;
+  }
+
+  h1{
+    font-size:8vw;
+    white-space: 2%;
+  }
+
+  p{
+    padding-top: 10px;
+    font-size:2vw;
+    font-family:'Edu SA Beginner', cursive;
+  }
+  @media screen and (max-width: 768px){
+    label img {
+      width: auto;
+      height: 16px;
+    }
+  }
+  @media screen and (max-width: 425px){
+    label img {
+      width: auto;
+      height: 10px;
+      position: absolute;
+      top: -20;
+    }
+  }
