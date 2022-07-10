@@ -33,6 +33,7 @@
   background-color: darkslategray;
   padding: 15px;
   position: absolute;
+  right: 10vw;
   }
   
   ul{
@@ -70,7 +71,7 @@
     padding: 20px;
   }
   
-  
+
   
   .card {
     width: 31%;
@@ -122,6 +123,7 @@
     #cavalo{
     float: left;
     width: 25%;
+    margin-right: 3vw;
   }
   .logo{
     width: 10%;
@@ -131,12 +133,13 @@
   h1{
     font-size:8vw;
     white-space: 2%;
+    font-family: 'Fira Sans', sans-serif;
   }
 
   p{
     padding-top: 10px;
     font-size:2vw;
-    font-family:'Edu SA Beginner', cursive;
+    font-family: 'Fira Sans', sans-serif;
   }
   @media screen and (max-width: 768px){
     label img {
@@ -152,3 +155,69 @@
       top: -20;
     }
   }
+/* Sobre */
+.about {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 10px;
+}
+
+.about-content {
+  max-width: 1000px;
+  min-width: 300px;
+  height: 600px;
+  background: #7070703b;
+  margin: 0 auto;
+  border-radius: 8px;
+  z-index: 10;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left {
+  width: 25%;
+  min-width: 300px;
+  height: 100%;
+  background: #000000a1;
+  border-radius: 8px;
+}
+
+.right {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 10%;
+}
+
+.right h3 {
+  text-align: right;
+  width: 90%;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.right p {
+  max-width: 90%;
+  font-size: 1em;
+  letter-spacing: 2px;
+  text-align: right;
+  color: #392D2D;
+}
+#cavalo {
+  border-radius:20%;
+  box-shadow: 10px 5px 5px black;
+}
+.thor{
+  margin-left: 20%;
+  width: 50vw;
+  height: 30vw;
+}

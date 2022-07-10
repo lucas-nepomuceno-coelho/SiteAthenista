@@ -33,6 +33,7 @@ label{
 background-color: darkslategray;
 padding: 15px;
 position: absolute;
+right: 10vw;
 }
 
 ul{
@@ -96,27 +97,39 @@ input[type="checkbox"]:checked ~ nav{
 }
 
 #img-1 {
-  background-image: url('https://media.istockphoto.com/vectors/ancient-greek-mythology-gods-and-goddesses-characters-icon-set-vector-id958303918');
+  background-image: url('https://images.educamaisbrasil.com.br/content/banco_de_imagens/guia-de-estudo/D/odin-deus-mitologia-nordica.jpg');
+  border-radius: 15%;
+  box-shadow: 10px 5px 5px grey;
 }
 
 #img-2 {
-  background-image: url('');
+  background-image: url('https://conteudo.imguol.com.br/c/entretenimento/ab/2022/06/27/thor-amor-e-trovao-1656344837718_v2_900x506.jpg.webp');
+  border-radius: 15%;
+  box-shadow: 10px 5px 5px grey;
 }
 
 #img-3 {
-  background-image: url('');
+  background-image: url('https://i.pinimg.com/originals/db/35/d8/db35d8215f282ebd5e890a15e14ff209.jpg');
+  border-radius: 15%;
+  box-shadow: 10px 5px 5px grey;
 }
 
 #img-4 {
-  background-image: url('');
+  background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p1/224119-conjunto-de-armas-viking-gr%C3%A1tis-vetor.jpg');
+  border-radius: 15%;
+  box-shadow: 10px 5px 5px grey;
 }
 
 #img-5 {
-  background-image: url('');
+  background-image: url('https://www.eusemfronteiras.com.br/wp-content/uploads/2022/04/standard_compressed_Edda-edited.jpg');
+  border-radius: 15%;
+  box-shadow: 10px 5px 5px grey;
 }
 
 #img-6 {
-  background-image: url('');
+  background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p1/4903189-personagem-desenho-do-homem-viking-segurando-machado-vetor.jpg');
+  border-radius: 15%;
+  box-shadow: 10px 5px 5px grey;
 }
 
 h3 {
