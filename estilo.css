@@ -13,32 +13,33 @@ header {
   color: aliceblue;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 /* Menu */
 
-a{
+a {
   text-decoration: none;
   display: block;
   padding: 20px 5px;
   color: black;
 }
 
-a:hover{
+a:hover {
   background-color: #392D2D;
   color: #965329;
   border-radius: 10px;
   transition: background .5s;
 }
 
-label{
-background-color: darkslategray;
-padding: 15px;
-position: absolute;
-right: 10vw;
+label {
+  background-color: darkslategray;
+  padding: 15px;
+  position: absolute;
+  right: 10vw;
 }
 
-ul{
+ul {
   position: absolute;
-  top: 80px;
+  top: 80%;
   width: 100px;
   border-radius: 10px;
   background-color: darkslategray;
@@ -48,11 +49,11 @@ label img {
   width: 40px;
 }
 
-input[type="checkbox"]{
+input[type="checkbox"] {
   display: none;
 }
 
-nav{
+nav {
   width: 350px;
   height: 50px;
   left: -350px;
@@ -60,7 +61,7 @@ nav{
   transition: all .5s;
 }
 
-input[type="checkbox"]:checked ~ nav{
+input[type="checkbox"]:checked~nav {
   transform: translateX(350px);
 }
 
@@ -97,13 +98,13 @@ input[type="checkbox"]:checked ~ nav{
 }
 
 #img-1 {
-  background-image: url('https://images.educamaisbrasil.com.br/content/banco_de_imagens/guia-de-estudo/D/odin-deus-mitologia-nordica.jpg');
+  background-image: url('https://cdn.hipercultura.com/imagens/martelo-thor-cke.jpg');
   border-radius: 15%;
   box-shadow: 10px 5px 5px grey;
 }
 
 #img-2 {
-  background-image: url('https://conteudo.imguol.com.br/c/entretenimento/ab/2022/06/27/thor-amor-e-trovao-1656344837718_v2_900x506.jpg.webp');
+  background-image: url('https://comicbookmovie.com/images/articles/banners/193682.jpg');
   border-radius: 15%;
   box-shadow: 10px 5px 5px grey;
 }
@@ -127,7 +128,7 @@ input[type="checkbox"]:checked ~ nav{
 }
 
 #img-6 {
-  background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p1/4903189-personagem-desenho-do-homem-viking-segurando-machado-vetor.jpg');
+  background-image: url('https://ae01.alicdn.com/kf/Hf819940a684f409e9a59b5865bade49e2/Traje-viking-medieval-larp-vestido-t-nico-masculino-camisa-longa-cavaleiros-nobre-roupa-estilo-armadura-para.jpg_Q90.jpg_.webp');
   border-radius: 15%;
   box-shadow: 10px 5px 5px grey;
 }
@@ -156,7 +157,7 @@ h3 {
   color: rgb(196, 195, 195);
   padding: 15px;
   border-radius: 10px;
-  
+
 }
 
 .btn:hover {
@@ -170,4 +171,20 @@ footer {
   text-align: center;
   padding: 80px;
   color: rgb(148, 137, 137);
+}
+
+#cima {
+  background-color: #965329;
+  opacity: 0.5;
+  font-size: 2vw;
+  width: 3vw;
+  position: fixed;
+  bottom: 3%;
+  right: 1%;
+  border-radius: 20%;
+}
+
+#esteregg:hover {
+
+  opacity: 0.2;
 }
