@@ -293,3 +293,7 @@ th {
   background-color: rgba(99, 41, 41, 0.459);
   font-size: large;
 }
+#creditos{
+  background-color: rgb(57, 133, 133);
+  border-radius: 10%;
+}
