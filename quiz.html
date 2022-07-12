@@ -1,64 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>alêmittö</title>
-  <link rel="stylesheet" href="assunto5.css" />
-  <link rel="icon" type="imagem/png" href="imagens/17 Sem Título_20220701194002.png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css"/>
+    <link rel="icon" type="imagem/png" href="imagens/17 Sem Título_20220701194002.png" />
+    <title>Quiz</title>
 </head>
-
 <body>
-  <!-- Cabeçalho e menu -->
-  <header>
-    <img src="https://i.ibb.co/nMvyL54/imagem-2022-06-26-181027258.png" alt="imagem logo alêmittö" border="0"
-      class="logo">
-    <img src="https://i.ibb.co/35Xrmtv/imagem-2022-06-26-181243479.png" alt="imagem nome" border="0" class="logo">
-    <!-- Navegação -->
-    <input type="checkbox" id="chec">
-    <label for="chec">
-      <img src="https://cdn-icons-png.flaticon.com/512/55/55003.png" alt="imagem menu">
-    </label>
-    <nav>
-      <ul>
-        <li> <a href="index.html">Home</a> </li>
-        <li> <a href="quiz.html" id="quiz">Quiz</a> </li>
-        <li> <a href="creditos.html">Créditos</a> </li>
-      </ul>
-    </nav>
-  </header>
+    <script src="main.js"></script>
+    <br>
+    <h2 class="tittle1">
+        <marquee>Agora que tal testarmos um pouco as informações que você adquiriu após a leitura do site?</marquee>
+    </h2>
+    <br>
+    <h1 class="tittle">
+        Teste Seu Conhecimento!<br>
+           Com 5 Perguntas!
+    </h1>
+    <br>
 
-  <!-- abas de páginas -->
-  <main class="container">
-    <h1> Quiz!</h1>
-    <h3 id="demo" onclick="myFunction()">Click me to change my color.</h3>
-    <h3 id="demo" onclick="myFunction()">Click me to change my color.</h3>
+    <hr>
+    <br>
+    <h3 class="tittle2">
+        A Yggdrasil é a árvore da vida na mitologia nórdica, nela se encontra 9 reinos, quais são eles?
+    </h3>
+    <img src="imagens-quiz/Yggdrasil.jpeg" alt="imagem/png" class="image"><br>
+    <br>
+    <button id="demo1" onclick="myFunction()">Asgard, Midgard,
+     Vanaheim, Jotunheim, Niflheim, Svartalfheim, Muspelheim, Nidavellir e Álfheim.</button><br>
+     <button id="demo2" onclick="myFunction()">Asgard, Jugstheim, Mukspheim, Niflheim, 
+        Savartalfheim, Dustigard, Midgard, Landheim e Niltheim.</button><br>
+    <button id="demo3" onclick="myFunction()">Asgard, Midgard, Vahaheim, Muskelheim, 
+        Savartalfheim, Nidavellir, Niltheim, Jontenheim e Álfheim.</button><br>
+    <button id="demo4" onclick="myFunction()">Asgard, Nidavellir, Savartalfheim, Niflheim, 
+        Muskelheim, Jontenheim, Vanaheim, Landheim e Niltheim.</button><br>
+    <button id="demo5" onclick="myFunction()">Asgard, Midgard, Vahaheim, Jotunheim, Niltheim,
+         Savartalfheim, Mukspheim, Nidavellir e Álfheim.</button><br>
+    <br>
+    <a href="index.html">Pagina inicial</a> 
+    <a href="quiz2.html">PRÓXIMO</a> 
 
-<script>
-function myFunction() {
-  document.getElementById("demo").style.color = "red";
-}
-</script>
 
-<script>
-function myFunction() {
-  document.getElementById("demo").style.color = "red";
-}
-</script>
-  </main>
-  <!-- Rodapé -->
-  <footer>
-    <p>
-      <span class="bold">alêmittö</span>
-      &copy; 2022
-    </p>
-    <p><a href="creditos.html" id="cima">↥</a> </p>
-  </footer>
 </body>
-
 </html>
