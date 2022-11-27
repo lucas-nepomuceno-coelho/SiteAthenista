@@ -1,122 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>alêmittö</title>
-    <link rel="stylesheet" href="estilo.css" />
-    <link
-      rel="icon"
-      type="imagem/png"
-      href="imagens/17 Sem Título_20220701194002.png"
-    />
-  </head>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="indexL.css">
+</head>
+<body>
+    <div class="box">
+        <div class="form">
+            <h2>Login</h2>
+            <div class="inputBox-login">
+                <input id="usuario" type="text" required="required">
+                <span>Email / Nome de usuário</span>
+                <i></i>
+            </div>
+            <div class="inputBox-login">
+                <input id="senha" type="password" required="required">
+                <span>Senha</span>
+                <i></i>  
+            </div>
+            <div class="links-login">
+                <a href="cadastre-se.html"> <input type="submit" value="Cadastre-se"> </a>
+            </div>
+           <a href="connect4.html"> <input type="submit" value="Login" onclick="redirecionaLogin()"> </a>
+        </div>
+    </div>
+</body>
 
-  <body>
-    <!-- Cabeçalho e menu -->
-    <header>
-      <img
-        src="https://i.ibb.co/nMvyL54/imagem-2022-06-26-181027258.png"
-        alt="imagem logo alêmittö"
-        border="0"
-      />
-      <img
-        src="https://i.ibb.co/35Xrmtv/imagem-2022-06-26-181243479.png"
-        alt="imagem nome"
-        border="0"
-      />
-      <!-- Navegação -->
-      <input type="checkbox" id="chec" />
-      <label for="chec">
-        <img
-          src="https://cdn-icons-png.flaticon.com/512/55/55003.png"
-          alt="imagem menu"
-        />
-      </label>
-      <nav>
-        <ul>
-          <li><a href="index.html" id="home">Home</a></li>
-          <li><a href="quiz.html">Quiz</a></li>
-          <li><a href="creditos.html">Créditos</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <!-- abas de páginas -->
-    <main class="container">
-      <section class="products-container">
-        <div class="card">
-          <div class="product-image" id="img-1"></div>
-          <h3>Deuses Principais</h3>
-          <p>saiba mais sobre os principais deuses desta mitologia</p>
-          <p>
-            <span class="bold"></span>
-          </p>
-          <a href="deuses.html" class="btn">CLIQUE AQUI</a>
-        </div>
-        <div class="card">
-          <div class="product-image" id="img-2"></div>
-          <h3>Filmes Nordicos</h3>
-          <p>Conheça Produções artisticas Nordicas Interessantes</p>
-          <p>
-            <span class="bold"></span>
-          </p>
-          <a href="assunto2.html" class="btn">CLIQUE AQUI</a>
-        </div>
-        <div class="card">
-          <div class="product-image" id="img-3"></div>
-          <h3>Arquitetura Nordica</h3>
-          <p>Aprenda um pouco como os Nordicos construiam casas</p>
-          <p>
-            <span class="bold"></span>
-          </p>
-          <a href="assunto3.html" class="btn">CLIQUE AQUI</a>
-        </div>
-        <div class="card">
-          <div class="product-image" id="img-4"></div>
-          <h3>Armas Vikings</h3>
-          <p>Aprenda sobre as Armas vikings e como eles as ultilizavam!</p>
-          <p>
-            <span class="bold"></span>
-          </p>
-          <a href="assunto4.html" class="btn">clique aqui </a>
-        </div>
-        <div class="card">
-          <div class="product-image" id="img-5"></div>
-          <h3>Reinos Nordicos</h3>
-          <p>
-            Asgard, Midgard, Vanaheim, Jotunheim, Niflheim, Svartalfheim,
-            Muspelheim, Nidavellir e Álfheim.
-          </p>
-          <p>
-            <span class="bold"></span>
-          </p>
-          <a href="assunto5.html" class="btn">clique aqui</a>
-        </div>
-        <div class="card">
-          <div class="product-image" id="img-6"></div>
-          <h3>Roupas vikings</h3>
-          <p>descubra um pouco mais sobre como os Vikings se vestiam!</p>
-          <p>
-            <span class="bold"></span>
-          </p>
-          <a href="assunto6.html" class="btn">clique aqui</a>
-        </div>
-      </section>
-    </main>
-    <!-- Rodapé -->
-    <footer>
-      <p>
-        <span class="bold">alêmittö</span>
-        &copy; 2022
-      </p>
-      <p><a href="index.html" id="cima">↥</a></p>
-      <p>
-        <a href="https://www.youtube.com/watch?v=GLWCYpGWhXo" id="esteregg"
-          >surpresa</a
-        >
-      </p>
-    </footer>
-  </body>
 </html>
+<script type="text/javascript" src="connect4.js"></script>
