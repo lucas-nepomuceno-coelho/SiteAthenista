@@ -15,6 +15,10 @@ window.onload = function() {
     setGame();
 }
 
+function redirecionaLogin() {
+    response.sendRedirect("connect4.html");
+}
+
 function setGame() {
     board = [];
     currColumns = [5, 5, 5, 5, 5, 5, 5];
@@ -127,4 +131,72 @@ function setWinner(r, c) {
         winner.innerText = "Yellow Wins";
     }
     gameOver = true;
+}
+
+
+function check()
+{
+  if(!document.getElementById("subscribe-email").checkValidity())
+  {
+
+    //do stuff here ie. show errors
+    alert("Formato de e-mail cadastrado incorrtamente!\nPor favor cadastrar um formato valido! \nusuario@provedor.com");
+
+  }
+  else {
+    if(!document.getElementById("senha").checkValidity())
+      alert("A senha deve ter ao menos um caracter");
+    else
+    {
+      login_check();
+    }
+  } 
+}
+
+function login_check(){
+    var username = document.getElementById("subscribe-email").value;
+    var password = document.getElementById("senha").value; 
+    if ( username == "redes@cefet.com" && password == "somosA+"){
+      window.location.href = "connect4.html";
+      return false;
+    }
+    else{
+        alert ("Usuario ou senha invalidos!");
+    }
+}
+
+function check_2()
+{
+  var password = document.getElementById("senha").value; 
+  if(!document.getElementById("subscribe-email").checkValidity())
+  {
+
+    //do stuff here ie. show errors
+    alert("Formato de e-mail cadastrado incorrtamente!\nPor favor cadastrar um formato valido! \nusuario@provedor.com");
+
+  }
+  else {
+    if(!document.getElementById("senha").checkValidity())
+      alert("A senha deve ter ao menos um caracter");
+    else
+    {
+        if (  password == "somosFsomosA+"){
+            login_check_2();
+        }else{
+            alert ("A senha informada não é a padrão!\nCadastre a senha padrão!\nSão varias pessoas usando! a senha já foi definida pelo time!");
+        }
+    }
+  } 
+}
+
+function login_check_2(){
+    var username = document.getElementById("subscribe-email").value;
+    var password = document.getElementById("senha").value; 
+    if ( username == "redes@cefet.com" && password == "somosFsomosA+"){
+      alert ("Cdastro fiinalizado com sucesso!");
+      window.location.href = "connect4.html";
+      return false;
+    }else {
+        alert ("Não é possivel cadastrar esse e-mail!\nInfelizmente ainda não liberamos para o publico!\nAguardem mais um pouco!");
+    }
 }
