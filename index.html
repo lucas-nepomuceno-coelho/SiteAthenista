@@ -11,8 +11,7 @@
         <div class="form">
             <h2>Login</h2>
             <div class="inputBox-login">
-                <input id="usuario" type="text" required="required">
-                <span>Email / Nome de usuário</span>
+                <input id="subscribe-email" type="email" required="required" placeholder="Email">
                 <i></i>
             </div>
             <div class="inputBox-login">
@@ -20,10 +19,15 @@
                 <span>Senha</span>
                 <i></i>  
             </div>
-            <div class="links-login">
-                <a href="cadastre-se.html"> <input type="submit" value="Cadastre-se"> </a>
-            </div>
-           <a href="connect4.html"> <input type="submit" value="Login" onclick="redirecionaLogin()"> </a>
+            <br>
+            <br>
+            <br>
+             <button onclick="location.href = 'cadastre-se.html';" id="myButton" class="links-login"  style="background-color:chartreuse ; border-color:chartreuse;height:34px">Cadastre-se</button>
+           <br>
+          
+           <button type="submit" id="subscribe-submit" onClick="check()" style="background-color:chartreuse ; border-color:chartreuse;height:34px" >
+           Login
+           </button>
         </div>
     </div>
 </body>
