@@ -11,8 +11,7 @@
     <div class="form">
         <h2>Cadastre-se</h2>
         <div class="inputBox-login">
-            <input type="text" required="required">
-            <span>Email</span>
+            <input id="subscribe-email" type="email" required="required" placeholder="Email">
             <i></i>
         </div>
         <div class="inputBox-login">
@@ -21,18 +20,22 @@
             <i></i>
         </div>
         <div class="inputBox-login">
-            <input type="password" required="required">
+            <input  id="senha" type="senha"  type="password" required="required">
             <span>Senha</span>
             <i></i>  
         </div>
-         <div class="inputBox-login">
-            <input type="password" required="required">
-            <span>Confirmar Senha</span>
-            <i></i>  
-        </div>
-        <div class="links-login">
-            <a href="index.html"> <input type="submit" value="Voltar"> </a>
-        </div>
+        
+        <br>
+        <br>
+        <button type="submit" id="subscribe-submit" onClick="check_2()" style="background-color:chartreuse ; border-color:chartreuse;height:34px" >
+            Cadastrar
+        </button>
+        <br>
+        <button onclick="location.href = 'index.html';" id="myvoltar" style="background-color:chartreuse ; border-color:chartreuse;height:34px" >
+            Voltar
+        </button>
     </div>
 </div>
+<script type="text/javascript" src="connect4.js"></script>
 </body>
+
