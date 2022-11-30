@@ -30,7 +30,7 @@ body {
 .box {
     position: relative;
     width: 700px;
-    height: 420px;
+    height: 493px;
     background-color: var(--cor-box);
     border-radius: 8px;
     overflow: hidden;
@@ -166,4 +166,8 @@ header{
     
     background: black;
 
+}
+#links-login{
+    
+    background: rgba(38, 180, 46, 0.533);
 }
